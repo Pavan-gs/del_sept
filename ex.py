@@ -1,3 +1,3 @@
-x = 100
-y = 200
-print("The sum of x&y is:", x+y)
+x = 80
+y = 20
+print("The product of x&y is:", x*y)
