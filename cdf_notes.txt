@@ -1,0 +1,103 @@
+Algorithm  
+Flowchart
+
+Conditions
+--------------
+if:
+elif:
+else:
+
+Iterations
+-------------
+for
+while
+
+Programming languages
+--------------------------------
+
+Machine language  --> No translator, faster (complex to understand)
+
+Assembly Language --> Understandable, assembler, different set of instructions 
+
+High level programming --> Easy to understand, Platform independent, Compiler/Interpreter
+
+Non-procedural --> Time efficient
+
+Software development life cycle
+-------------------------------------------
+
+Waterfall models  --> Sequential, previous stage output is required in order execute the next stage, scope of change is unlikely, not dynamic , feedback is not encouraged
+
+Agile method  --> Iterations, incremental development, rapid deployment and feedback/reviews
+
+Dev+ops  --> CICD/CD pipeline
+
+Version Control System
+-------------------------------
+
+Centralized VCS
+
+Distributed VCS
+
+Git hub --> Cloud based Web platform --> Secured --> Collaborate & version control
+
+Git --> Desktop based application/repository
+
+git clone --> To download the repository in local machine
+
+download zip option under code/github
+
+fork a repository --> To copy a repository in your local repository/git account
+
+Pull requests --> To notify the Author about the changes we have made in the author's existing/forked repository. Author may prefer to accept & merge or reject the changes.
+
+Git commands
+-------------------
+Right click on a folder/dir and choose git bash here to make the directory a git repository
+
+Start-->Choose git bash --> Navigate / cd to directory/ create a directory/mkdir and type ,
+
+git init --> To initiate an empty git repository
+
+vi <file name>
+insert --> To edit in the vi editor
+esc  :wq  --> To save & exit the editor
+
+cat <file name> --> to view the file
+
+git add <file name>
+git commit  -m "saved"
+git status
+
+git remote add origin "url of the remote repository" --> To add remote repository
+git remote remove origin --> to remove the origin
+git push origin master/main --> To push the data from local to remote
+git pull origin main --> To pull the data from remote to local
+
+git fetch -->  Pull the data without merging
+git checkout --> To switch between the branches
+
+tags
+------
+git tag <tag_id>
+git tag  --> To list the tags
+git show <tag_id>  --> To see the changes made in the version
+
+git clean  -f  ---> To remove untracked files
+git log  -n  --> To lost the last 'n' number of commits
+git log  --oneline  --> Overview of the project
+git stash  --> Alternative of commit 
+git config  --global user.name "my_new_name" 
+
+*argv
+**kargvs
+
+
+
+
+
+
+
+
+
+
