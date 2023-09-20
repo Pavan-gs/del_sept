@@ -1,0 +1,39 @@
+Hive Tables
+---------------
+
+Internal tables / Managed Tables --> Data gets moved from the HDFS location to the Hive location inside HDFS
+============================   and if you drop table, data is permanently lost
+
+
+External tables  --> Table is mapped into a data location in hdfs, data stays intact abd available for the hadoop processes.
+
+
+Partitioning
+----------------
+100 lakh records --> reliance fresh mall
+10 lakh --> Blr
+	
+Select avg(sales)
+from table
+where city = "Blr"
+	
+ /Blr --> 10 lakh
+/Mum --> 10 lakh
+/Del --> 10 lakh
+
+Static Partitioning --> Need to run the insert fcommand for each category of the partition
+Dynamic Partitioning --> Dynamically creates the partition for all categories
+
+Bucketing
+========
+
+
+
+
+
+
+
+
+
+
+	
